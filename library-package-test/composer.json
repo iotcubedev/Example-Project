@@ -1,0 +1,6 @@
+{
+    "name": "example",
+    "require": {
+        "cnvs/canvas": "v3.4.2"
+    }
+}

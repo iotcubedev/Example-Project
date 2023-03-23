@@ -1,0 +1,5 @@
+{
+    "dependencies": {
+        "FSharp.Core" : "4.3.3"
+    }
+}

@@ -1,0 +1,6 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target 'ExampleApp' do
+    pod "nanopb", "=2.30909.0"
+end
