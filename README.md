@@ -9,6 +9,7 @@
     1. **[소스코드]** 소스아카이브 분석
     1. **[소스코드]** 패키지 분석 
     1. **[컨테이너]** Docker 분석
+    1. **[바이너리]** 바이너리 분석
 1. 분석결과 확인
 1. 검색기능 
 
@@ -16,7 +17,7 @@
 
 ## 1. 래브라도 소개
 ### 1-1. '래브라도랩스'와 '래브라도'
-[▶ 래브라도 Brochure 보기](./img/LabradorOSS_Brochure_v1.0_ko.jpg)
+[▶ 래브라도 Brochure 보기](https://labrador.labradorlabs.ai/labrador/document/Brochure_ko.pdf)
 
 **래브라도랩스:**
 > 고려대 보안연구소(CSSA)에서 원천 기술을 갖고 분사한 회사로서, 고객 소프트웨어의 사용 리스크를 정확히 탐지하고 관리해주는 최고의 소프트웨어 안전관리 플랫폼 제공을 목표로 하고 있습니다.
@@ -48,15 +49,18 @@
     * [Docker Hub](https://hub.docker.com/) 에 검색되는 컨테이너 ex) ubuntu:18.04
 
 
+4. **바이너리**
+    * zip, 7z, tar, wim, iso, xar, rar, gz, bz2, xz, rpm, deb, bin, sh
+
 ## 2. 분석방법
 
 ### 2-1. **[소스코드]** Git 리포 분석
 **프로젝트 만들기 > 소스코드 > Source Repo**
->시연 테스트소스: https://github.com/iotcubedev/Java-Project
+>시연 테스트소스: https://github.com/iotcubedev/Example-Project
 
 ### 2-2. **[소스코드]** 소스아카이브 분석
 **프로젝트 만들기 > 소스코드 > 아카이브 파일**
->시연 테스트소스: https://github.com/iotcubedev/Java-Project
+>시연 테스트소스: https://github.com/iotcubedev/Example-Project
 
 
 ### 2-3. **[소스코드]** 패키지 분석 
@@ -82,6 +86,13 @@
 **프로젝트 만들기 > 컨테이너 > 이미지명**
 >시연 컨테이너: ubuntu:18.04
 
+### 2-5. **[바이너리]** 바이너리 분석
+**프로젝트 만들기 > 바이너리 > 바이너리 파일**
+>시연 바이너리: ubuntu:18.04
+
+### 2-5. **[바이너리]** 바이너리 분석
+**프로젝트 만들기 > 바이너리 > 바이너리 파일**
+>시연 바이너리: eclipse-jdt-4.19-3.fc34.noarch.rpm
 
 ---
 
@@ -96,4 +107,4 @@
 ---
 ## 4. 검색기능 
 **우측상단 "DB 검색"**
-> 시연
+> 시연: ex) Log4j 취약점: CVE-2021-44228
